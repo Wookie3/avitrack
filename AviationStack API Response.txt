@@ -1,0 +1,557 @@
+AviationStack API Response: {
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "count": 10,
+    "total": 561214
+  },
+  "data": [
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Shenzhen Airlines",
+        "iata": "ZH",
+        "icao": "CSZ"
+      },
+      "flight": {
+        "number": "5023",
+        "iata": "ZH5023",
+        "icao": "CSZ5023",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "China Southern Airlines",
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "flight": {
+        "number": "32",
+        "iata": "CZ32",
+        "icao": "CSN32",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "China Eastern Airlines",
+        "iata": "MU",
+        "icao": "CES"
+      },
+      "flight": {
+        "number": "3622",
+        "iata": "MU3622",
+        "icao": "CES3622",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Xiamen Airlines",
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "flight": {
+        "number": "7690",
+        "iata": "MF7690",
+        "icao": "CXA7690",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air China LTD",
+        "iata": "CA",
+        "icao": "CCA"
+      },
+      "flight": {
+        "number": "3214",
+        "iata": "CA3214",
+        "icao": "CCA3214",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Shanghai Pudong International",
+        "timezone": "Asia/Shanghai",
+        "iata": "PVG",
+        "icao": "ZSPD",
+        "terminal": "2",
+        "gate": "C86",
+        "delay": null,
+        "scheduled": "2026-01-04T07:30:00+00:00",
+        "estimated": "2026-01-04T07:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Yingkou Lanqi Airport\r\n",
+        "timezone": null,
+        "iata": "YKH",
+        "icao": "ZYYK",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T09:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Sichuan Airlines",
+        "iata": "3U",
+        "icao": "CSC"
+      },
+      "flight": {
+        "number": "4425",
+        "iata": "3U4425",
+        "icao": "CSC4425",
+        "codeshared": {
+          "airline_name": "juneyao airlines",
+          "airline_iata": "ho",
+          "airline_icao": "dkh",
+          "flight_number": "1051",
+          "flight_iata": "ho1051",
+          "flight_icao": "dkh1051"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "782105"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Talakan Airport",
+        "timezone": null,
+        "iata": "TLK",
+        "icao": "UECT",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-01-04T14:10:00+00:00",
+        "estimated": "2026-01-04T14:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Irkutsk",
+        "timezone": "Asia/Irkutsk",
+        "iata": "IKT",
+        "icao": "UIII",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T14:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "IrAero",
+        "iata": "IO",
+        "icao": "IAE"
+      },
+      "flight": {
+        "number": "418",
+        "iata": "IO418",
+        "icao": "IAE418",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Sayak Airport",
+        "timezone": "Asia/Manila",
+        "iata": "IAO",
+        "icao": "RPNS",
+        "terminal": null,
+        "gate": null,
+        "delay": 31,
+        "scheduled": "2026-01-04T06:30:00+00:00",
+        "estimated": "2026-01-04T06:30:00+00:00",
+        "actual": "2026-01-04T07:18:00+00:00",
+        "estimated_runway": "2026-01-04T07:18:00+00:00",
+        "actual_runway": "2026-01-04T07:18:00+00:00"
+      },
+      "arrival": {
+        "airport": "Francisco Bangoy International",
+        "timezone": "Asia/Manila",
+        "iata": "DVO",
+        "icao": "RPMD",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T07:40:00+00:00",
+        "delay": 30,
+        "estimated": "2026-01-04T08:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Cebu Pacific Air",
+        "iata": "5J",
+        "icao": "CEB"
+      },
+      "flight": {
+        "number": "6871",
+        "iata": "5J6871",
+        "icao": "CEB6871",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "758510"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Ramingining",
+        "timezone": "Australia/Darwin",
+        "iata": "RAM",
+        "icao": "YRNG",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-01-04T11:45:00+00:00",
+        "estimated": "2026-01-04T11:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Maningrida",
+        "timezone": "Australia/Darwin",
+        "iata": "MNG",
+        "icao": "YMGD",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T11:57:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "7C1B3C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-01-04",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Maningrida",
+        "timezone": "Australia/Darwin",
+        "iata": "MNG",
+        "icao": "YMGD",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-01-04T12:15:00+00:00",
+        "estimated": "2026-01-04T12:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Darwin",
+        "timezone": "Australia/Darwin",
+        "iata": "DRW",
+        "icao": "YPDN",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-01-04T13:11:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "7C1B3C"
+      },
+      "live": null
+    }
+  ]
+}

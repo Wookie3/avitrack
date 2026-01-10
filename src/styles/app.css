@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+/* Midnight Aviation Theme */
+@theme {
+  --color-slate-950: #020617;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-400: #94a3b8;
+  --color-slate-300: #cbd5e1;
+  --color-slate-200: #e2e8f0;
+  
+  --color-cyan-400: #22d3ee;
+  --color-cyan-500: #06b6d4;
+  --color-cyan-600: #0891b2;
+  
+  --color-lime-400: #a3e635;
+  --color-lime-500: #84cc16;
+  
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+  
+  --color-red-500: #ef4444;
+  
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-slate-700, currentcolor);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    @apply bg-slate-950 text-slate-200 font-mono;
+    background-image: 
+      radial-gradient(ellipse at top, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, rgba(132, 204, 22, 0.05) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+
+  .using-mouse * {
+    outline: none !important;
+  }
+}
+
+@layer components {
+  /* Glass morphism card */
+  .glass-card {
+    @apply bg-slate-900/60 backdrop-blur-xl border border-slate-700/50 rounded-xl;
+    box-shadow: 
+      0 0 20px rgba(6, 182, 212, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Telemetry display */
+  .telemetry-value {
+    @apply text-cyan-400 font-mono text-2xl font-bold tracking-wider;
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  }
+  
+  .telemetry-label {
+    @apply text-slate-400 text-xs uppercase tracking-widest;
+  }
+  
+  /* Status indicators */
+  .status-active {
+    @apply text-lime-400;
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .status-delayed {
+    @apply text-amber-400;
+  }
+  
+  .status-cancelled {
+    @apply text-red-500;
+  }
+  
+  /* ATC Strip style */
+  .atc-strip {
+    @apply bg-slate-800/80 border-l-4 border-cyan-500 px-4 py-3;
+  }
+  
+  /* Glow effects */
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+  }
+  
+  .glow-lime {
+    box-shadow: 0 0 20px rgba(132, 204, 22, 0.3);
+  }
+}
+
+@layer utilities {
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+  
+  @keyframes radar-sweep {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .animate-radar {
+    animation: radar-sweep 4s linear infinite;
+  }
+}
